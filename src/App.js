@@ -15,8 +15,8 @@ const App = () => {
 
       <div className="app-wrapper-content">
         <Routes>
-          <Route element={<Profile/>} path="/profile"/>
-          <Route element={<Dialogs/>} path="/dialogs"/>
+          <Route element={<Profile/>} path="/profile/*"/>
+          <Route element={<Dialogs/>} path="/dialogs/*"/>
         </Routes>
       </div>
     </div>
