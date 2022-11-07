@@ -1,18 +1,12 @@
 import MyPosts from './MyPosts/MyPosts';
 import s from './Profile.module.css'
+import ProfileInfo from './ProfileInfo/ProfileInfo';
 
 const Profile = () => {
     return (
         
         <div> 
-            <div>
-                <img src="https://www.industrialempathy.com/img/remote/ZiClJf-640w.avif"/>
-             </div>
-
-            <div>
-                ava + description
-            </div>
-
+            <ProfileInfo/>
             <MyPosts/>
         </div>
         
